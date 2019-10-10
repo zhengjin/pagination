@@ -21,11 +21,11 @@ Thumbs.db
 .build
 node_modules
 .cache
-dist
+# dist
 assets/**/*.css
 build
-lib
-es
+# lib
+# es
 .vscode
 coverage/
 yarn.lock
