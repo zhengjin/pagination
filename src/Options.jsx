@@ -32,7 +32,7 @@ class Options extends React.Component {
   }
 
   buildOptionText = (value) => {
-    return `${value} ${this.props.locale.items_per_page}`;
+    return `${this.props.locale.items_per_page}`.replace('{count}', value);
   }
 
   changeSize = (value) => {

@@ -1,6 +1,6 @@
 export default {
   // Options.jsx
-  items_per_page: '條/頁',
+  items_per_page: '每頁{count}項',
   jump_to: '跳至',
   jump_to_confirm: '確定',
   page: '頁',
